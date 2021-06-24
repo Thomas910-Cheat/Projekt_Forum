@@ -1,0 +1,20 @@
+<style>
+div {
+  background-image: url('Digital_Hintergrund.jpg');
+}
+
+.ForumInfo{
+  border: 5px outset red;
+  background-color: black;    
+  text-align: center;
+}
+
+.Registrierung{
+  border: 5px outset red;
+  background-color: black;    
+  text-align: center;
+}
+
+
+
+</style>

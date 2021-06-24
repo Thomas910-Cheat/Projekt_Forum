@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>Projekt_Forum</title>
+<div class="image-container-head">
+	<center>
+	<img src="Digital_Hintergrund_Login.jpg" alt="Test" align=center border=0 height=20% width=50% >
+	<hr style="width:1000px; height:1px; border:1px solid; border-color:#000000;">
+	</center>
+</div>
+<meta name="description" content="Forum Projekt in der Schule TBS1"/>
+<meta name="keywords" content="Website, Forum, Projekt"/>
+<meta name="author" content="Thomas Kolebski"/>
+<meta name="charset" content="utf-8"/>
+<meta name="copyright" content="Thomas Kolebski, kolebski.thomas@gmail.com"/>
+<href rel="stylesheet" href="style1.css" type="text/css"/>
+<style>
+
+</style>
+</head>
+<body>
+<!--
+<style>
+div {
+  background-image: url('Blackstyle.jpg');
+}
+</style>
+-->
+<div class="Text-zum-Projekt_Forum_Kolebski">
+	<body text=#000000>
+	<body bgcolor=#858585>
+
+	<center>
+	<div class="ForumInfo">
+		<h3>
+		Wo ist die Information?
+		</h3>
+		Der Link zur Information ist: <a href="Forum_Info.html"><b>HIER</b></a><br>
+		<br>
+	</div>
+	<hr style="width:1000px; height:1px; border:1px solid; border-color:#000000;">
+	</center>
+</div>
+<!--
+Aber hier anfangend kommt der Quellcode:
+-->
+<div class="Projekt_Forum_Kolebski_Quellcode">
+	<center>
+	<div class="Registrierung">
+		<!--
+		<form action="welcome.php" method="post">
+			<h2>___Registrierung___</h2>
+			<h3>Wie möchten sie heißen?</h3>
+			<label for="vorname"><b>Username:</b></label>
+			<input id="vorname">
+		
+			<h3>Was wird ihr Password sein?</h3>
+			<label for="zuname"><b>Password:</b> </label>
+			<input id="zuname">
+		
+			<br>
+			<button type="reset">Zurücksetzen</button>
+			<button type="submit">Absenden</button>
+		</form>
+		-->
+		<script type="text/javascript">
+			function IsEmpty()
+			{
+			 if(document.forms['frm'].textbox_text.value == "")
+				{
+				  alert('Message body is empty');
+				  return false;
+				}
+				  return true;
+			}
+		</script>
+
+		<form action="Forum.php" method="post">
+			<h2>___Registrierung___</h2>
+
+			<h3> Wie möchten sie heißen? </h3>
+			<label for ="nutzername"><b>Nutzername:</b></label> <input type="text" id="nutzername" name="nutzername"><br>
+
+
+			<h3> Welche E-mail möchten sie verwenden? </h3>
+			<label for ="email"><b>E-mail:</b></label> <input type="text" id="nutzername" name="email"><br>
+
+			<h3> Welches Passwort werden sie verwenden? </h3>
+			<label for ="passwort"><b>Passwort:</b></label> <input type="password" id="nutzername" name="passwort"><br>
+
+			<button type="reset">Zurücksetzen</button>
+			<button type="submit">Absenden</button>
+		</form>
+	</div>
+	<hr style="width:1000px; height:1px; border:1px solid; border-color:#000000;">
+	<img src="Digital_Hintergrund_Login.jpg" alt="Test" align=center border=0 height=20% width=50% >
+
+	</center>
+</div>
+<!--
+-->
+</body>
+</html>

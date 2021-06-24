@@ -1,0 +1,13 @@
+Wie heißt das Projekt?
+Projekt_Forum
+
+Ersteller?
+Thomas Kolebski ITA19b 
+
+Meilensteine:
+1.	HTML Seite erstellen
+2.	Funktionalitäten wie Registration und Diskussion_starten einfügen
+3.	Die Registration zum funktionieren bringen
+4.	User sollen sich anmelden können
+5.	Diskussionen sollen stumpf hintereinander auf der HTML erscheinen
+6.	Kategorien erstellen

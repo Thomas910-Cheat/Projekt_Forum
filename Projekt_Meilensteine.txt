@@ -11,3 +11,4 @@ Meilensteine:
 4.	User sollen sich anmelden können
 5.	Diskussionen sollen stumpf hintereinander auf der HTML erscheinen
 6.	Kategorien erstellen
+7.  Datum soll an dem Kommentar / Diskussions anfang angezeigt werden

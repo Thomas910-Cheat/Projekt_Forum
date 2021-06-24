@@ -1,5 +1,4 @@
- 
-<?php                                                          // Skript fängt mit php an
+ <?php                                                          // Skript fängt mit php an
  $server = 'localhost';
  $user = 'root';                                                
  $password = '';
@@ -15,18 +14,13 @@ $conn = new mysqli($server, $user, $password, $database);       //Hier wird die 
 if ($connection->connect_error) {                               //Es wird überprüft ob ein Verbindungsfehler aufgetreten ist
     die("Connection failed:" . $conn->connect_error);           //Wenn das der fall ist soll die Verbindung verfallen und den Grund dafür ausgeben
 }else{
-    $stmt = $conn->prepare("Insert into registration(nutzername, passwort, email) values(?, ?, ?)");
-    $stmt->bind_param("sss",$nutzername, $passwort, $email);
-    $stmt->execute();
-    echo "Registration erfolgreich abgeschlossen!";
-    $stmt->close();
-    $conn->close();
+    $stmt = $conn->prepare("INSERT INTO registration(nutzername, passwort, email) values(?, ?, ?)");        //Der SQL-Befehl des ausgewählt wird wenn die connection steht
+    $stmt->bind_param("sss",$nutzername, $passwort, $email);                                                //in die drei Strings die 3 sachen einfügen(nutzernamen, passwort, email)
+    $stmt->execute();                                                                                       //man soll das statement ausführen
+    echo "Registration erfolgreich abgeschlossen!";                                                         //Im Browser die Text Zeile "Registration erfolgreich abgeschlossen!" drucken
+    $stmt->close();                                                                                         //Statement schließen
+    $conn->close();                                                                                         //Verbindung schließen
 }
-}
 
-
-
-
-$connection->close();   //Schließt die Verbindung die am anfang des skripts auf anfrage entstanden ist
+$connection->close();                                           //Schließt die Verbindung die am anfang des skripts auf Anfrage entstanden ist
 ?>
-

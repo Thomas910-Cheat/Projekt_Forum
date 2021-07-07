@@ -1,15 +1,30 @@
+/*
 div {
   background-image: url('Digital_Hintergrund.jpg');
+}
+*/
+.Platzfüller{
+  border: 5px outset red;
+  padding: 5px;
 }
 
 .ForumInfo{
   border: 5px outset red;
-  background-color: black;    
+  /*background-color: black;*/    
   text-align: center;
+  padding: 5px;
 }
 
 .Registrierung{
   border: 5px outset red;
-  background-color: black;    
+  /*background-color: black;*/    
   text-align: center;
+  padding: 5px;
+}
+
+.Login{
+  border: 5px outset red;
+  /*background-color: black;*/    
+  text-align: center;
+  padding: 5px;
 }

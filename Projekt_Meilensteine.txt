@@ -12,3 +12,4 @@ Meilensteine:
 5.	Diskussionen sollen stumpf hintereinander auf der HTML erscheinen
 6.	Kategorien erstellen
 7.  Datum soll an dem Kommentar / Diskussions anfang angezeigt werden
+8.  Falls einer die seite für einen bestimmten Nutzer erfährt, soll er auf die Registrierungsseite zurück gestellt werden.
